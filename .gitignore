@@ -1,0 +1,4 @@
+#Ignorar pasta dos dataset e dataframes
+datasets/
+dataframes/
+npz/
