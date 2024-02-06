@@ -8,8 +8,6 @@ from nltk.stem.porter import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 import string
 from nltk import word_tokenize
-from sklearn.model_selection import train_test_split
-
 
 
 #Pré-processamento

@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
-from scipy.sparse import load_npz,csr_matrix
+from scipy.sparse import load_npz
 
 grid_BNB = { 
     'alpha' : [0.1, 0.5, 1],

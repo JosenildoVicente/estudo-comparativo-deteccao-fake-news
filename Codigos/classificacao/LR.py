@@ -13,8 +13,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from scipy.sparse import load_npz
 
-from sklearn.pipeline import Pipeline
-
 grid_LR = { 
     'solver' : ['liblinear'],
     'penalty' : ['none', 'l1', 'l2', 'elasticnet'],
